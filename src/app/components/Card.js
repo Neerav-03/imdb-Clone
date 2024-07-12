@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { AiFillHeart } from "react-icons/ai";
+import RedirectButton from './Redirect';
 
 
 const Card = ({result}) => {
@@ -25,6 +26,7 @@ const Card = ({result}) => {
             <AiFillHeart className="text-red-500 ml-3 mr-1" /> {result.vote_count}{" "}
           </p>
         </div>
+        <RedirectButton result={result}/>
 
       </Link>
     </div>

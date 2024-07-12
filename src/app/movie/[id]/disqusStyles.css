@@ -1,0 +1,27 @@
+/* Disqus Styles */
+.disqus-wrapper {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .disqus-thread a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .disqus-thread a:hover {
+    text-decoration: underline;
+  }
+  
+  .disqus-thread .post {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .disqus-thread .post:last-child {
+    border-bottom: none;
+  }
+  

@@ -17,6 +17,11 @@ const Header = () => {
             address={"/about"}
             Icon={FaInfo}
           />
+          <MenuItem
+            title={"Recommedation"}
+            address={"/recommendation"}
+            Icon={FaInfo}
+          />
         </div>
         <div className="flex items-center space-x-5">
           <DarkMode/>

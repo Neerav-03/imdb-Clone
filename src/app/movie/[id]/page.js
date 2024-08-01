@@ -70,7 +70,7 @@ const MoviePage = ({ params }) => {
           <DiscussionEmbed
             shortname="imdbclone"
             config={{
-              url: `https://your-site.com/movie/${movie.id}`,
+              url: `https://imdb-clone-1-k4i4.onrender.com/movie/${movie.id}`,
               identifier: movie.id.toString(),
               title: movie.title || movie.name,
               language: "en_US" // Specify your desired language

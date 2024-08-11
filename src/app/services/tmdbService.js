@@ -1,6 +1,6 @@
 // services/tmdbService.js
 import axios from 'axios';
-const TMDB_API_KEY = 'cfda90675c3bfe650cbf5e62841af305'; // Replace with your TMDB API key
+const TMDB_API_KEY = process.env.API_KEY; // Replace with your TMDB API key
 const TMDB_API_URL = 'https://api.themoviedb.org/3/movie';
 
 export async function getMovieDetails(movieId) {
